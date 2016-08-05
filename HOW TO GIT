@@ -1,0 +1,49 @@
+Manual para uso de git en consola
+
+-- Para obtener los codigos fuentes, se usa el comando:
+
+$ git clone < direccion url - codigo fuente >
+
+-- Para crear los 'branch' de las distintas etapas del proyecto, se usa el comando:
+
+$ git checkout XX (en donde XX es el nro. de la etapa)
+
+-- para agregar los objetos creados en esa etapa, se usa el comando.
+
+$ git add 'nombre_archivo'
+
+-- para agregar todos los objetos .txt creados en esa etapa, se usa el comando.
+
+$ git add '*.txt'
+
+-- para enviar/grabar los objetos agregados anteriormente, se usa el comando.
+
+$ git commit -m 'Comentario_de_las_modificaciones'
+
+-- para ver el log de todas las operaciones, se usa el comando.
+
+$ git log
+
+-- para ver el estado de los archivos del repositorio, se usa el comando:
+
+$ git status
+
+-- Si quiere descargar nuevamente los cambios realizados en el repositorio, se usa el comando.
+
+$ git pull origin master
+
+-- Si quiere enviar los cambios realizados en el repositorio, se usa el comando.
+
+$ git push -u origin master
+
+-- si quiere descartar las modificaciones realizadas y no grabar en el repositorio, se usa el comando:
+
+&
+
+-- Si quiere compara los cambios realizados de una esta a otra, se usa el comando:
+
+$ git diff XX..YY (en donde XX es la primera etapa e YY es la otra etapa a comparar)
+
+-- si quieres crear un repositorio remoto nuevo, se utiliza el comando:
+
+$ git remote add origin <direccion_del_nuevo_repositorio.git>
