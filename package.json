@@ -1,0 +1,19 @@
+{
+  "name": "animate-server",
+  "version": "1.0.0",
+  "description": "A interactive chat with video and gifs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alexfloresf/animate-server.git"
+  },
+  "author": "Alex Flores alex.flores@ubee.xyz",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/alexfloresf/animate-server/issues"
+  },
+  "homepage": "https://github.com/alexfloresf/animate-server#readme"
+}
